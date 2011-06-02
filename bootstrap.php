@@ -9,9 +9,9 @@
 
 	set_include_path($paths);
 
-	spl_autoload_register('auto_load');
-
 	function auto_load($class)
 	{
 		@include_once($class.'.php');	
 	}
+
+	spl_autoload_register('auto_load');
