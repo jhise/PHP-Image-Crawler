@@ -1,5 +1,5 @@
 Overview:
 
-The problem this application attempts to solve is to locate and identify jpeg images that saved throughout a filesystem.
+The problem this application attempts to solve is to locate and identify jpeg images that are saved throughout a filesystem.
 
 The solution is to generate an index of the location and identeties of these images.
